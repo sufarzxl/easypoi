@@ -4,10 +4,8 @@ import cn.afterturn.easypoi.excel.ExcelExportUtil;
 import cn.afterturn.easypoi.excel.ExcelImportUtil;
 import cn.afterturn.easypoi.excel.entity.ExportParams;
 import cn.afterturn.easypoi.excel.entity.ImportParams;
-import cn.afterturn.easypoi.util.PoiPublicUtil;
 import com.baizhi.entity.Student;
 import com.baizhi.entity.Teacher;
-import com.sun.org.apache.bcel.internal.generic.NEW;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -16,6 +14,7 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+
 
 @SpringBootTest
 public class EasypoiApplicationTests {
@@ -61,4 +60,8 @@ public class EasypoiApplicationTests {
         }
     }
 
+    @Test
+    public void test6() {
+        System.out.println("true = " + true);
+    }
 }
