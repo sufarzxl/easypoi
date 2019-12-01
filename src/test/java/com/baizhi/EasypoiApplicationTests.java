@@ -64,5 +64,6 @@ public class EasypoiApplicationTests {
     @Test
     public void test2() {
         System.out.println(new Date());
+        System.out.println("add");
     }
 }
